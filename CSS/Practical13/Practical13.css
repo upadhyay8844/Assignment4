@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 8vh;
+width: 100%;
+}
+
+.table {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.table table{
+    width: 60%;
+    height: 80vh;
+    /* border: 2px solid black; */
+ }
+
+ .table table thead tr.heading{
+     font-size: 40px;
+     color: blueviolet;
+     background-color: rgb(191, 228, 230);
+ }
+
+ .table table tbody tr.price{
+     font-size: 30px;
+     color: rgb(43, 136, 43);
+ }
+
+ .table table tbody tr td i.fa-check{
+     color: green;
+     font-size: 20px;
+ }
+ .table table tbody tr td i.fa-times{
+     color: red;
+     font-size: 20px;
+ }
+ .table table tbody tr td{
+     text-align: center;
+ }
+ .color{
+     background-color: rgb(167, 229, 231);
+ }
+ .table table tbody tr td a{
+     text-decoration: none;
+     color: white;
+     background-color: purple;
+     padding: 10px 25px;
+     border-radius: 10px;
+ }
+ .table table tbody tr td a:hover{
+     color: yellow;
+ }
+
+ tbody>tr.color>:nth-child(1){ 
+     background-color: rgba(201, 169, 190, 0.527);
+}
+ tbody>tr.color>:nth-child(2){ 
+     background-color: rgba(183, 161, 196, 0.541);
+}
+ tbody>tr.color>:nth-child(3){ 
+     background-color: rgba(164, 207, 175, 0.562);
+}
+ tbody>tr.color>:nth-child(4){ 
+     background-color: rgba(206, 212, 152, 0.719);
+}
